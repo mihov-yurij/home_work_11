@@ -1,0 +1,25 @@
+.navigation {
+    &__list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__item {
+        display: inline-block;
+        margin-right: 46px;
+    }
+
+    &__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: var(--color-black);
+        letter-spacing: 0.1em;
+
+    }
+
+    &__link--active {
+        color: var(--accent-color);
+        font-weight: 500;
+    }
+}
